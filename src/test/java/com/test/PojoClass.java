@@ -64,7 +64,7 @@ public class PojoClass extends BaseClass{
 	    private WebElement video;
 
 
-	@FindBy(xpath="//*[@text='and557']")
+	@FindBy(xpath="//*[@text='and558']")
     private WebElement room1;
 	
 	public WebElement getRoom1() {
@@ -73,7 +73,7 @@ public class PojoClass extends BaseClass{
 	public WebElement getRoom2() {
 		return room2;
 	}
-	@FindBy(xpath="//*[@text='and555']")
+	@FindBy(xpath="//*[@text='123']")
     private WebElement room2;
 	
 	public WebElement getFeedtype() {
