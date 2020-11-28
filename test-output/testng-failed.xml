@@ -1,15 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
-  <test name="Test(failed)">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
     <classes>
-      <class name="com.test.TestClass2">
+      <class name="com.test.Vpm_Test">
         <methods>
+          <include name="play_pause_video"/>
+          <include name="click_on_video"/>
+          <include name="Feed_shows_priorcalls"/>
+          <include name="video_info_button"/>
           <include name="setUp"/>
-          <include name="live_session_visisble"/>
-          <include name="tearDown"/>
+          <include name="seek_video"/>
         </methods>
-      </class> <!-- com.test.TestClass2 -->
+      </class> <!-- com.test.Vpm_Test -->
     </classes>
-  </test> <!-- Test(failed) -->
-</suite> <!-- Failed suite [Suite] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

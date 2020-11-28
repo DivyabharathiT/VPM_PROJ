@@ -1,39 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="1" ignored="4" total="6" passed="1">
+<testng-results skipped="0" failed="5" ignored="11" total="21" passed="5">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="139148" started-at="2020-11-27T12:15:23Z" finished-at="2020-11-27T12:17:42Z">
+  <suite name="Default suite" duration-ms="630106" started-at="2020-11-28T11:50:41Z" finished-at="2020-11-28T12:01:11Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="139148" started-at="2020-11-27T12:15:23Z" finished-at="2020-11-27T12:17:42Z">
-      <class name="com.test.TestClass2">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.test.TestClass2@78e67e0a]" name="setUp" is-config="true" duration-ms="52761" started-at="2020-11-27T17:46:42Z" finished-at="2020-11-27T17:47:35Z">
+    <test name="Default test" duration-ms="630106" started-at="2020-11-28T11:50:41Z" finished-at="2020-11-28T12:01:11Z">
+      <class name="com.test.Vpm_Test">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.test.Vpm_Test@3043fe0e]" name="setUp" is-config="true" duration-ms="16672" started-at="2020-11-28T17:20:41Z" finished-at="2020-11-28T17:20:58Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="FAIL" signature="live_session_visisble()[pri:2, instance:com.test.TestClass2@78e67e0a]" name="live_session_visisble" duration-ms="7281" started-at="2020-11-27T17:47:35Z" finished-at="2020-11-27T17:47:42Z">
+        <test-method status="FAIL" signature="Feed_shows_priorcalls()[pri:0, instance:com.test.Vpm_Test@3043fe0e]" name="Feed_shows_priorcalls" duration-ms="2070" started-at="2020-11-28T17:20:58Z" finished-at="2020-11-28T17:21:00Z">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
-              <![CDATA[no such element (An element could not be located on the page using the given search parameters (XPATH='//*[@text='Live']'))  (WARNING: The server did not provide any stacktrace information)
+              <![CDATA[no such element (An element could not be located on the page using the given search parameters (XPATH='//*[@text='and557']'))  (WARNING: The server did not provide any stacktrace information)
 Command duration or timeout: 0 milliseconds
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'LAPTOP-0IBD1NEI', ip: '192.168.1.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
 Driver info: io.appium.java_client.android.AndroidDriver
-Capabilities {appActivity: com.adt.vpm.activity.HomeAc..., appBuildVersion: , appPackage: com.adt.vpm.testapp, appReleaseVersion: , appiumVersion: 1.8.0, applicationClearData: false, autoAcceptAlerts: false, autoDismissAlerts: false, autoGrantPermissions: false, autoWebview: false, commandTimeouts: 120000, desired: {appActivity: com.adt.vpm.activity.HomeAc..., appPackage: com.adt.vpm.testapp, platformName: Android, udid: 9f9c90e1}, device.category: UNKNOWN, device.majorVersion: 9, device.manufacture: vivo, device.model: vivo 1851, device.name: vivo 1851, device.os: Android, device.screenSize: 1080x2280, device.serialNumber: 9f9c90e1, device.version: 9, deviceUDID: 9f9c90e1, dontGoHomeOnQuit: false, dontStopAppOnReset: false, fullReset: false, install.only.for.update: false, installOnlyForUpdate: false, instrumentApp: false, javascriptEnabled: true, keystorePath: ~/.android/debug.keystore, locationServicesAuthorized: false, newSessionWaitTimeout: 600, noReset: false, platform: ANDROID, platformName: Android, projectName: , reportDirectory: reports, reportFormat: xml, reportUrl: C:\Users\Divya Bharathi\app..., reservationDuration: 240, takeScreenshots: true, test.type: Mobile, testName: mobile test 11/27/20 05:47 PM, udid: 9f9c90e1, useKeystore: false, waitForDeviceTimeout: 120000}
-Session ID: f6317bfc-3036-4a5c-a16b-646cf9f59527
-*** Element info: {Using=xpath, value=//*[@text='Live']}]]>
+Capabilities {appActivity: com.adt.vpm.activity.HomeAc..., appBuildVersion: , appPackage: com.adt.vpm.testapp, appReleaseVersion: , appiumVersion: 1.8.0, applicationClearData: false, autoAcceptAlerts: false, autoDismissAlerts: false, autoGrantPermissions: false, autoWebview: false, commandTimeouts: 120000, desired: {appActivity: com.adt.vpm.activity.HomeAc..., appPackage: com.adt.vpm.testapp, platformName: Android, udid: 9f9c90e1}, device.category: UNKNOWN, device.majorVersion: 9, device.manufacture: vivo, device.model: vivo 1851, device.name: vivo 1851, device.os: Android, device.screenSize: 1080x2280, device.serialNumber: 9f9c90e1, device.version: 9, deviceUDID: 9f9c90e1, dontGoHomeOnQuit: false, dontStopAppOnReset: false, fullReset: false, install.only.for.update: false, installOnlyForUpdate: false, instrumentApp: false, javascriptEnabled: true, keystorePath: ~/.android/debug.keystore, locationServicesAuthorized: false, newSessionWaitTimeout: 600, noReset: false, platform: ANDROID, platformName: Android, projectName: , reportDirectory: reports, reportFormat: xml, reportUrl: C:\Users\Divya Bharathi\app..., reservationDuration: 240, takeScreenshots: true, test.type: Mobile, testName: mobile test 11/28/20 05:20 PM, udid: 9f9c90e1, useKeystore: false, waitForDeviceTimeout: 120000}
+Session ID: 6dd1c55b-51f3-4f40-ad7e-caf02f880533
+*** Element info: {Using=xpath, value=//*[@text='and557']}]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element (An element could not be located on the page using the given search parameters (XPATH='//*[@text='Live']'))  (WARNING: The server did not provide any stacktrace information)
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element (An element could not be located on the page using the given search parameters (XPATH='//*[@text='and557']'))  (WARNING: The server did not provide any stacktrace information)
 Command duration or timeout: 0 milliseconds
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'LAPTOP-0IBD1NEI', ip: '192.168.1.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
 Driver info: io.appium.java_client.android.AndroidDriver
-Capabilities {appActivity: com.adt.vpm.activity.HomeAc..., appBuildVersion: , appPackage: com.adt.vpm.testapp, appReleaseVersion: , appiumVersion: 1.8.0, applicationClearData: false, autoAcceptAlerts: false, autoDismissAlerts: false, autoGrantPermissions: false, autoWebview: false, commandTimeouts: 120000, desired: {appActivity: com.adt.vpm.activity.HomeAc..., appPackage: com.adt.vpm.testapp, platformName: Android, udid: 9f9c90e1}, device.category: UNKNOWN, device.majorVersion: 9, device.manufacture: vivo, device.model: vivo 1851, device.name: vivo 1851, device.os: Android, device.screenSize: 1080x2280, device.serialNumber: 9f9c90e1, device.version: 9, deviceUDID: 9f9c90e1, dontGoHomeOnQuit: false, dontStopAppOnReset: false, fullReset: false, install.only.for.update: false, installOnlyForUpdate: false, instrumentApp: false, javascriptEnabled: true, keystorePath: ~/.android/debug.keystore, locationServicesAuthorized: false, newSessionWaitTimeout: 600, noReset: false, platform: ANDROID, platformName: Android, projectName: , reportDirectory: reports, reportFormat: xml, reportUrl: C:\Users\Divya Bharathi\app..., reservationDuration: 240, takeScreenshots: true, test.type: Mobile, testName: mobile test 11/27/20 05:47 PM, udid: 9f9c90e1, useKeystore: false, waitForDeviceTimeout: 120000}
-Session ID: f6317bfc-3036-4a5c-a16b-646cf9f59527
-*** Element info: {Using=xpath, value=//*[@text='Live']}
+Capabilities {appActivity: com.adt.vpm.activity.HomeAc..., appBuildVersion: , appPackage: com.adt.vpm.testapp, appReleaseVersion: , appiumVersion: 1.8.0, applicationClearData: false, autoAcceptAlerts: false, autoDismissAlerts: false, autoGrantPermissions: false, autoWebview: false, commandTimeouts: 120000, desired: {appActivity: com.adt.vpm.activity.HomeAc..., appPackage: com.adt.vpm.testapp, platformName: Android, udid: 9f9c90e1}, device.category: UNKNOWN, device.majorVersion: 9, device.manufacture: vivo, device.model: vivo 1851, device.name: vivo 1851, device.os: Android, device.screenSize: 1080x2280, device.serialNumber: 9f9c90e1, device.version: 9, deviceUDID: 9f9c90e1, dontGoHomeOnQuit: false, dontStopAppOnReset: false, fullReset: false, install.only.for.update: false, installOnlyForUpdate: false, instrumentApp: false, javascriptEnabled: true, keystorePath: ~/.android/debug.keystore, locationServicesAuthorized: false, newSessionWaitTimeout: 600, noReset: false, platform: ANDROID, platformName: Android, projectName: , reportDirectory: reports, reportFormat: xml, reportUrl: C:\Users\Divya Bharathi\app..., reservationDuration: 240, takeScreenshots: true, test.type: Mobile, testName: mobile test 11/28/20 05:20 PM, udid: 9f9c90e1, useKeystore: false, waitForDeviceTimeout: 120000}
+Session ID: 6dd1c55b-51f3-4f40-ad7e-caf02f880533
+*** Element info: {Using=xpath, value=//*[@text='and557']}
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
@@ -64,8 +64,8 @@ Session ID: f6317bfc-3036-4a5c-a16b-646cf9f59527
 	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
 	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at com.sun.proxy.$Proxy9.isDisplayed(Unknown Source)
-	at com.test.TestClass2.live_session_visisble(TestClass2.java:55)
+	at com.sun.proxy.$Proxy8.isDisplayed(Unknown Source)
+	at com.test.Vpm_Test.Feed_shows_priorcalls(Vpm_Test.java:60)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -96,26 +96,412 @@ Session ID: f6317bfc-3036-4a5c-a16b-646cf9f59527
           </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- live_session_visisble -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.test.TestClass2@78e67e0a]" name="tearDown" is-config="true" duration-ms="0" started-at="2020-11-27T17:47:42Z" finished-at="2020-11-27T17:47:42Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.test.TestClass2 -->
-      <class name="com.test.TestClass1">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.test.TestClass1@3043fe0e]" name="setUp" is-config="true" duration-ms="74611" started-at="2020-11-27T17:45:23Z" finished-at="2020-11-27T17:46:38Z">
+        </test-method> <!-- Feed_shows_priorcalls -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.test.Vpm_Test@3043fe0e]" name="setUp" is-config="true" duration-ms="71030" started-at="2020-11-28T17:21:00Z" finished-at="2020-11-28T17:22:11Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="Creater_Creates_A_New_Room()[pri:1, instance:com.test.TestClass1@3043fe0e]" name="Creater_Creates_A_New_Room" duration-ms="4437" started-at="2020-11-27T17:46:38Z" finished-at="2020-11-27T17:46:42Z">
+        <test-method status="PASS" signature="Feed_shows_type_of_call()[pri:0, instance:com.test.Vpm_Test@3043fe0e]" name="Feed_shows_type_of_call" duration-ms="1605" started-at="2020-11-28T17:22:11Z" finished-at="2020-11-28T17:22:12Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Creater_Creates_A_New_Room -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.test.TestClass1@3043fe0e]" name="tearDown" is-config="true" duration-ms="0" started-at="2020-11-27T17:46:42Z" finished-at="2020-11-27T17:46:42Z">
+        </test-method> <!-- Feed_shows_type_of_call -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.test.Vpm_Test@3043fe0e]" name="setUp" is-config="true" duration-ms="84503" started-at="2020-11-28T17:22:12Z" finished-at="2020-11-28T17:23:37Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.test.TestClass1 -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="User_lands_on_feedscreen()[pri:0, instance:com.test.Vpm_Test@3043fe0e]" name="User_lands_on_feedscreen" duration-ms="580" started-at="2020-11-28T17:23:37Z" finished-at="2020-11-28T17:23:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- User_lands_on_feedscreen -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.test.Vpm_Test@3043fe0e]" name="setUp" is-config="true" duration-ms="84251" started-at="2020-11-28T17:23:37Z" finished-at="2020-11-28T17:25:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="call_show_roomname()[pri:0, instance:com.test.Vpm_Test@3043fe0e]" name="call_show_roomname" duration-ms="6873" started-at="2020-11-28T17:25:02Z" finished-at="2020-11-28T17:25:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- call_show_roomname -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.test.Vpm_Test@3043fe0e]" name="setUp" is-config="true" duration-ms="83713" started-at="2020-11-28T17:25:09Z" finished-at="2020-11-28T17:26:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="click_on_video()[pri:0, instance:com.test.Vpm_Test@3043fe0e]" name="click_on_video" duration-ms="1191" started-at="2020-11-28T17:26:32Z" finished-at="2020-11-28T17:26:33Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element (An element could not be located on the page using the given search parameters (XPATH='//*[@text='RTSP 554 Sample']'))  (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-0IBD1NEI', ip: '192.168.1.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: com.adt.vpm.activity.HomeAc..., appBuildVersion: , appPackage: com.adt.vpm.testapp, appReleaseVersion: , appiumVersion: 1.8.0, applicationClearData: false, autoAcceptAlerts: false, autoDismissAlerts: false, autoGrantPermissions: false, autoWebview: false, commandTimeouts: 120000, desired: {appActivity: com.adt.vpm.activity.HomeAc..., appPackage: com.adt.vpm.testapp, platformName: Android, udid: 9f9c90e1}, device.category: UNKNOWN, device.majorVersion: 9, device.manufacture: vivo, device.model: vivo 1851, device.name: vivo 1851, device.os: Android, device.screenSize: 1080x2280, device.serialNumber: 9f9c90e1, device.version: 9, deviceUDID: 9f9c90e1, dontGoHomeOnQuit: false, dontStopAppOnReset: false, fullReset: false, install.only.for.update: false, installOnlyForUpdate: false, instrumentApp: false, javascriptEnabled: true, keystorePath: ~/.android/debug.keystore, locationServicesAuthorized: false, newSessionWaitTimeout: 600, noReset: false, platform: ANDROID, platformName: Android, projectName: , reportDirectory: reports, reportFormat: xml, reportUrl: C:\Users\Divya Bharathi\app..., reservationDuration: 240, takeScreenshots: true, test.type: Mobile, testName: mobile test 11/28/20 05:26 PM, udid: 9f9c90e1, useKeystore: false, waitForDeviceTimeout: 120000}
+Session ID: 1cb2b5dd-a957-4b66-8d80-e022c1032742
+*** Element info: {Using=xpath, value=//*[@text='RTSP 554 Sample']}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element (An element could not be located on the page using the given search parameters (XPATH='//*[@text='RTSP 554 Sample']'))  (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-0IBD1NEI', ip: '192.168.1.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: com.adt.vpm.activity.HomeAc..., appBuildVersion: , appPackage: com.adt.vpm.testapp, appReleaseVersion: , appiumVersion: 1.8.0, applicationClearData: false, autoAcceptAlerts: false, autoDismissAlerts: false, autoGrantPermissions: false, autoWebview: false, commandTimeouts: 120000, desired: {appActivity: com.adt.vpm.activity.HomeAc..., appPackage: com.adt.vpm.testapp, platformName: Android, udid: 9f9c90e1}, device.category: UNKNOWN, device.majorVersion: 9, device.manufacture: vivo, device.model: vivo 1851, device.name: vivo 1851, device.os: Android, device.screenSize: 1080x2280, device.serialNumber: 9f9c90e1, device.version: 9, deviceUDID: 9f9c90e1, dontGoHomeOnQuit: false, dontStopAppOnReset: false, fullReset: false, install.only.for.update: false, installOnlyForUpdate: false, instrumentApp: false, javascriptEnabled: true, keystorePath: ~/.android/debug.keystore, locationServicesAuthorized: false, newSessionWaitTimeout: 600, noReset: false, platform: ANDROID, platformName: Android, projectName: , reportDirectory: reports, reportFormat: xml, reportUrl: C:\Users\Divya Bharathi\app..., reservationDuration: 240, takeScreenshots: true, test.type: Mobile, testName: mobile test 11/28/20 05:26 PM, udid: 9f9c90e1, useKeystore: false, waitForDeviceTimeout: 120000}
+Session ID: 1cb2b5dd-a957-4b66-8d80-e022c1032742
+*** Element info: {Using=xpath, value=//*[@text='RTSP 554 Sample']}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:61)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:151)
+	at io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElementByXPath(AndroidDriver.java:1)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:57)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy8.click(Unknown Source)
+	at com.test.BaseClass.click(BaseClass.java:57)
+	at com.test.Vpm_Test.click_on_video(Vpm_Test.java:205)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- click_on_video -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.test.Vpm_Test@3043fe0e]" name="setUp" is-config="true" duration-ms="83408" started-at="2020-11-28T17:26:33Z" finished-at="2020-11-28T17:27:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="enable_SL_server()[pri:0, instance:com.test.Vpm_Test@3043fe0e]" name="enable_SL_server" duration-ms="4026" started-at="2020-11-28T17:27:57Z" finished-at="2020-11-28T17:28:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enable_SL_server -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.test.Vpm_Test@3043fe0e]" name="setUp" is-config="true" duration-ms="81431" started-at="2020-11-28T17:28:01Z" finished-at="2020-11-28T17:29:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="feedlist_view_createandjoin_option()[pri:0, instance:com.test.Vpm_Test@3043fe0e]" name="feedlist_view_createandjoin_option" duration-ms="2520" started-at="2020-11-28T17:29:22Z" finished-at="2020-11-28T17:29:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feedlist_view_createandjoin_option -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.test.Vpm_Test@3043fe0e]" name="setUp" is-config="true" duration-ms="6777" started-at="2020-11-28T17:29:25Z" finished-at="2020-11-28T17:29:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="play_pause_video()[pri:0, instance:com.test.Vpm_Test@3043fe0e]" name="play_pause_video" duration-ms="1267" started-at="2020-11-28T17:29:32Z" finished-at="2020-11-28T17:29:33Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element (An element could not be located on the page using the given search parameters (XPATH='//*[@text='RTSP 554 Sample']'))  (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-0IBD1NEI', ip: '192.168.1.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: com.adt.vpm.activity.HomeAc..., appBuildVersion: , appPackage: com.adt.vpm.testapp, appReleaseVersion: , appiumVersion: 1.8.0, applicationClearData: false, autoAcceptAlerts: false, autoDismissAlerts: false, autoGrantPermissions: false, autoWebview: false, commandTimeouts: 120000, desired: {appActivity: com.adt.vpm.activity.HomeAc..., appPackage: com.adt.vpm.testapp, platformName: Android, udid: 9f9c90e1}, device.category: UNKNOWN, device.majorVersion: 9, device.manufacture: vivo, device.model: vivo 1851, device.name: vivo 1851, device.os: Android, device.screenSize: 1080x2280, device.serialNumber: 9f9c90e1, device.version: 9, deviceUDID: 9f9c90e1, dontGoHomeOnQuit: false, dontStopAppOnReset: false, fullReset: false, install.only.for.update: false, installOnlyForUpdate: false, instrumentApp: false, javascriptEnabled: true, keystorePath: ~/.android/debug.keystore, locationServicesAuthorized: false, newSessionWaitTimeout: 600, noReset: false, platform: ANDROID, platformName: Android, projectName: , reportDirectory: reports, reportFormat: xml, reportUrl: C:\Users\Divya Bharathi\app..., reservationDuration: 240, takeScreenshots: true, test.type: Mobile, testName: mobile test 11/28/20 05:29 PM, udid: 9f9c90e1, useKeystore: false, waitForDeviceTimeout: 120000}
+Session ID: dcb7ff37-62ec-4d67-b6ef-a5f75486320e
+*** Element info: {Using=xpath, value=//*[@text='RTSP 554 Sample']}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element (An element could not be located on the page using the given search parameters (XPATH='//*[@text='RTSP 554 Sample']'))  (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-0IBD1NEI', ip: '192.168.1.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: com.adt.vpm.activity.HomeAc..., appBuildVersion: , appPackage: com.adt.vpm.testapp, appReleaseVersion: , appiumVersion: 1.8.0, applicationClearData: false, autoAcceptAlerts: false, autoDismissAlerts: false, autoGrantPermissions: false, autoWebview: false, commandTimeouts: 120000, desired: {appActivity: com.adt.vpm.activity.HomeAc..., appPackage: com.adt.vpm.testapp, platformName: Android, udid: 9f9c90e1}, device.category: UNKNOWN, device.majorVersion: 9, device.manufacture: vivo, device.model: vivo 1851, device.name: vivo 1851, device.os: Android, device.screenSize: 1080x2280, device.serialNumber: 9f9c90e1, device.version: 9, deviceUDID: 9f9c90e1, dontGoHomeOnQuit: false, dontStopAppOnReset: false, fullReset: false, install.only.for.update: false, installOnlyForUpdate: false, instrumentApp: false, javascriptEnabled: true, keystorePath: ~/.android/debug.keystore, locationServicesAuthorized: false, newSessionWaitTimeout: 600, noReset: false, platform: ANDROID, platformName: Android, projectName: , reportDirectory: reports, reportFormat: xml, reportUrl: C:\Users\Divya Bharathi\app..., reservationDuration: 240, takeScreenshots: true, test.type: Mobile, testName: mobile test 11/28/20 05:29 PM, udid: 9f9c90e1, useKeystore: false, waitForDeviceTimeout: 120000}
+Session ID: dcb7ff37-62ec-4d67-b6ef-a5f75486320e
+*** Element info: {Using=xpath, value=//*[@text='RTSP 554 Sample']}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:61)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:151)
+	at io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElementByXPath(AndroidDriver.java:1)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:57)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy8.click(Unknown Source)
+	at com.test.BaseClass.click(BaseClass.java:57)
+	at com.test.Vpm_Test.play_pause_video(Vpm_Test.java:215)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- play_pause_video -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.test.Vpm_Test@3043fe0e]" name="setUp" is-config="true" duration-ms="88688" started-at="2020-11-28T17:29:33Z" finished-at="2020-11-28T17:31:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="seek_video()[pri:0, instance:com.test.Vpm_Test@3043fe0e]" name="seek_video" duration-ms="1175" started-at="2020-11-28T17:31:02Z" finished-at="2020-11-28T17:31:03Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element (An element could not be located on the page using the given search parameters (XPATH='//*[@text='RTSP 554 Sample']'))  (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-0IBD1NEI', ip: '192.168.1.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: com.adt.vpm.activity.HomeAc..., appBuildVersion: , appPackage: com.adt.vpm.testapp, appReleaseVersion: , appiumVersion: 1.8.0, applicationClearData: false, autoAcceptAlerts: false, autoDismissAlerts: false, autoGrantPermissions: false, autoWebview: false, commandTimeouts: 120000, desired: {appActivity: com.adt.vpm.activity.HomeAc..., appPackage: com.adt.vpm.testapp, platformName: Android, udid: 9f9c90e1}, device.category: UNKNOWN, device.majorVersion: 9, device.manufacture: vivo, device.model: vivo 1851, device.name: vivo 1851, device.os: Android, device.screenSize: 1080x2280, device.serialNumber: 9f9c90e1, device.version: 9, deviceUDID: 9f9c90e1, dontGoHomeOnQuit: false, dontStopAppOnReset: false, fullReset: false, install.only.for.update: false, installOnlyForUpdate: false, instrumentApp: false, javascriptEnabled: true, keystorePath: ~/.android/debug.keystore, locationServicesAuthorized: false, newSessionWaitTimeout: 600, noReset: false, platform: ANDROID, platformName: Android, projectName: , reportDirectory: reports, reportFormat: xml, reportUrl: C:\Users\Divya Bharathi\app..., reservationDuration: 240, takeScreenshots: true, test.type: Mobile, testName: mobile test 11/28/20 05:30 PM, udid: 9f9c90e1, useKeystore: false, waitForDeviceTimeout: 120000}
+Session ID: dffdb617-1670-472a-b457-77e333dc3e0e
+*** Element info: {Using=xpath, value=//*[@text='RTSP 554 Sample']}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element (An element could not be located on the page using the given search parameters (XPATH='//*[@text='RTSP 554 Sample']'))  (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-0IBD1NEI', ip: '192.168.1.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: com.adt.vpm.activity.HomeAc..., appBuildVersion: , appPackage: com.adt.vpm.testapp, appReleaseVersion: , appiumVersion: 1.8.0, applicationClearData: false, autoAcceptAlerts: false, autoDismissAlerts: false, autoGrantPermissions: false, autoWebview: false, commandTimeouts: 120000, desired: {appActivity: com.adt.vpm.activity.HomeAc..., appPackage: com.adt.vpm.testapp, platformName: Android, udid: 9f9c90e1}, device.category: UNKNOWN, device.majorVersion: 9, device.manufacture: vivo, device.model: vivo 1851, device.name: vivo 1851, device.os: Android, device.screenSize: 1080x2280, device.serialNumber: 9f9c90e1, device.version: 9, deviceUDID: 9f9c90e1, dontGoHomeOnQuit: false, dontStopAppOnReset: false, fullReset: false, install.only.for.update: false, installOnlyForUpdate: false, instrumentApp: false, javascriptEnabled: true, keystorePath: ~/.android/debug.keystore, locationServicesAuthorized: false, newSessionWaitTimeout: 600, noReset: false, platform: ANDROID, platformName: Android, projectName: , reportDirectory: reports, reportFormat: xml, reportUrl: C:\Users\Divya Bharathi\app..., reservationDuration: 240, takeScreenshots: true, test.type: Mobile, testName: mobile test 11/28/20 05:30 PM, udid: 9f9c90e1, useKeystore: false, waitForDeviceTimeout: 120000}
+Session ID: dffdb617-1670-472a-b457-77e333dc3e0e
+*** Element info: {Using=xpath, value=//*[@text='RTSP 554 Sample']}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:61)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:151)
+	at io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElementByXPath(AndroidDriver.java:1)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:57)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy8.click(Unknown Source)
+	at com.test.BaseClass.click(BaseClass.java:57)
+	at com.test.Vpm_Test.seek_video(Vpm_Test.java:231)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- seek_video -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.test.Vpm_Test@3043fe0e]" name="setUp" is-config="true" duration-ms="7021" started-at="2020-11-28T17:31:03Z" finished-at="2020-11-28T17:31:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="video_info_button()[pri:0, instance:com.test.Vpm_Test@3043fe0e]" name="video_info_button" duration-ms="1198" started-at="2020-11-28T17:31:10Z" finished-at="2020-11-28T17:31:11Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element (An element could not be located on the page using the given search parameters (XPATH='//*[@text='RTSP 554 Sample']'))  (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-0IBD1NEI', ip: '192.168.1.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: com.adt.vpm.activity.HomeAc..., appBuildVersion: , appPackage: com.adt.vpm.testapp, appReleaseVersion: , appiumVersion: 1.8.0, applicationClearData: false, autoAcceptAlerts: false, autoDismissAlerts: false, autoGrantPermissions: false, autoWebview: false, commandTimeouts: 120000, desired: {appActivity: com.adt.vpm.activity.HomeAc..., appPackage: com.adt.vpm.testapp, platformName: Android, udid: 9f9c90e1}, device.category: UNKNOWN, device.majorVersion: 9, device.manufacture: vivo, device.model: vivo 1851, device.name: vivo 1851, device.os: Android, device.screenSize: 1080x2280, device.serialNumber: 9f9c90e1, device.version: 9, deviceUDID: 9f9c90e1, dontGoHomeOnQuit: false, dontStopAppOnReset: false, fullReset: false, install.only.for.update: false, installOnlyForUpdate: false, instrumentApp: false, javascriptEnabled: true, keystorePath: ~/.android/debug.keystore, locationServicesAuthorized: false, newSessionWaitTimeout: 600, noReset: false, platform: ANDROID, platformName: Android, projectName: , reportDirectory: reports, reportFormat: xml, reportUrl: C:\Users\Divya Bharathi\app..., reservationDuration: 240, takeScreenshots: true, test.type: Mobile, testName: mobile test 11/28/20 05:31 PM, udid: 9f9c90e1, useKeystore: false, waitForDeviceTimeout: 120000}
+Session ID: 1be7e835-5b1e-4332-a14a-2bf98f9bc879
+*** Element info: {Using=xpath, value=//*[@text='RTSP 554 Sample']}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element (An element could not be located on the page using the given search parameters (XPATH='//*[@text='RTSP 554 Sample']'))  (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-0IBD1NEI', ip: '192.168.1.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: com.adt.vpm.activity.HomeAc..., appBuildVersion: , appPackage: com.adt.vpm.testapp, appReleaseVersion: , appiumVersion: 1.8.0, applicationClearData: false, autoAcceptAlerts: false, autoDismissAlerts: false, autoGrantPermissions: false, autoWebview: false, commandTimeouts: 120000, desired: {appActivity: com.adt.vpm.activity.HomeAc..., appPackage: com.adt.vpm.testapp, platformName: Android, udid: 9f9c90e1}, device.category: UNKNOWN, device.majorVersion: 9, device.manufacture: vivo, device.model: vivo 1851, device.name: vivo 1851, device.os: Android, device.screenSize: 1080x2280, device.serialNumber: 9f9c90e1, device.version: 9, deviceUDID: 9f9c90e1, dontGoHomeOnQuit: false, dontStopAppOnReset: false, fullReset: false, install.only.for.update: false, installOnlyForUpdate: false, instrumentApp: false, javascriptEnabled: true, keystorePath: ~/.android/debug.keystore, locationServicesAuthorized: false, newSessionWaitTimeout: 600, noReset: false, platform: ANDROID, platformName: Android, projectName: , reportDirectory: reports, reportFormat: xml, reportUrl: C:\Users\Divya Bharathi\app..., reservationDuration: 240, takeScreenshots: true, test.type: Mobile, testName: mobile test 11/28/20 05:31 PM, udid: 9f9c90e1, useKeystore: false, waitForDeviceTimeout: 120000}
+Session ID: 1be7e835-5b1e-4332-a14a-2bf98f9bc879
+*** Element info: {Using=xpath, value=//*[@text='RTSP 554 Sample']}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:61)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:151)
+	at io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElementByXPath(AndroidDriver.java:1)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:57)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy8.click(Unknown Source)
+	at com.test.BaseClass.click(BaseClass.java:57)
+	at com.test.Vpm_Test.video_info_button(Vpm_Test.java:249)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- video_info_button -->
+      </class> <!-- com.test.Vpm_Test -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

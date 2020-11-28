@@ -15,6 +15,7 @@ import org.apache.poi.ss.usermodel.Row;
 import org.apache.poi.ss.usermodel.Sheet;
 import org.apache.poi.ss.usermodel.Workbook;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebElement;
@@ -23,6 +24,9 @@ import org.openqa.selenium.remote.DesiredCapabilities;
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
 
+import io.appium.java_client.AppiumDriver;
+import io.appium.java_client.MobileBy;
+import io.appium.java_client.MobileElement;
 import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.android.AndroidElement;
 import io.appium.java_client.remote.AndroidMobileCapabilityType;
@@ -52,7 +56,9 @@ public class BaseClass {
 		public static void click(WebElement e) {
 			e.click();
 		}
-		public static String read(int row,int col,String path) throws IOException {
+		public static String read(int row,int col) throws IOException {
+		
+			String path=System.getProperty("user.dir")+"\\Excel\\Vpm_Excel.xlsx";
 			File f=new File(path);
 			FileInputStream fin=new FileInputStream(f);
 			String value="";
@@ -89,7 +95,7 @@ public class BaseClass {
 		}
 		
 
-		public static void screen(String name) throws IOException {
+		/*public static void screen(String name) throws IOException {
 		TakesScreenshot ts=(TakesScreenshot)driver;
 		File src = ts.getScreenshotAs(OutputType.FILE);
 		File dest=new File("C:\\Users\\Divya Bharathi\\Downloads\\VPM-main\\VPM-main\\ScreenShot\\"+ name +".png");
@@ -106,7 +112,11 @@ public class BaseClass {
 			extent.setSystemInfo("Tester", "divya");
 
 		
-		}
+		}*/
+		public WebElement scrollToAnElementByText(AndroidDriver<AndroidElement> driver2, String text) {
+	        return driver2.findElement(MobileBy.AndroidUIAutomator("new UiScrollable(new UiSelector())" +
+	                ".scrollIntoView(new UiSelector().text(\"" + text + "\"));"));
+	}
 		
 		
 		

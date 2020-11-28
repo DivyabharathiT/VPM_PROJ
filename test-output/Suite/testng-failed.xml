@@ -3,10 +3,17 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
   <test name="Test(failed)">
     <classes>
+      <class name="com.test.TestClass1">
+        <methods>
+          <include name="tearDown"/>
+          <include name="Creater_Creates_A_New_Room"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.test.TestClass1 -->
       <class name="com.test.TestClass2">
         <methods>
           <include name="setUp"/>
-          <include name="live_session_visisble"/>
+          <include name="Joiner_Joines_The_Room_Created"/>
           <include name="tearDown"/>
         </methods>
       </class> <!-- com.test.TestClass2 -->

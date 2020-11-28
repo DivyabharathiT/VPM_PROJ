@@ -19,7 +19,6 @@ import io.appium.java_client.remote.AndroidMobileCapabilityType;
 import io.appium.java_client.remote.MobileCapabilityType;
 
 public class TestClass1 extends PojoClass{
-	String path="C:\\Users\\Divya Bharathi\\Downloads\\VPM-main\\VPM-main\\Excel\\Vpm_Excel.xlsx";
     
     @BeforeMethod
     public void setUp() throws MalformedURLException {
@@ -27,11 +26,11 @@ public class TestClass1 extends PojoClass{
     	launchmob("3594acce0804");
 	       
     	  }
-     @Test(priority=1)
+     @Test
     public void Creater_Creates_A_New_Room() throws InterruptedException, IOException {
     	PojoClass p1=new PojoClass();
     	click(p1.getVideoIcon());
-    	send(p1.getRoomName(), read(1, 0, path));
+    	send(p1.getRoomName(), read(1, 0));
     	Thread.sleep(1000);
     	click(p1.getCreate());
         
@@ -42,7 +41,7 @@ public class TestClass1 extends PojoClass{
     public void Creater_Click_back_button() throws InterruptedException, IOException {
     	PojoClass p3=new PojoClass();
     	click(p3.getVideoIcon());
-    	send(p3.getRoomName(), read(1, 0, path));
+    	send(p3.getRoomName(), read(1, 0));
     	Thread.sleep(1000);
     	click(p3.getCreate());
     	Thread.sleep(1000);
@@ -57,13 +56,16 @@ public class TestClass1 extends PojoClass{
     public void Creater_end_The_Session() throws InterruptedException, IOException {
     	PojoClass p5=new PojoClass();
     	click(p5.getVideoIcon());
-    	send(p5.getRoomName(), read(1, 0, path));
+    	send(p5.getRoomName(), read(1, 0));
     	Thread.sleep(1000);
     	click(p5.getCreate());
     	Thread.sleep(1000);
     	click(getDisconnect());
     
     }
+    
+    
+    
 
     @AfterMethod
     public void tearDown() {
